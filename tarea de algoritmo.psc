@@ -109,7 +109,7 @@ escribir " par o impar sin return "
 escribir par_impar_sinreturn
 escribir ""
 
-escribir "  Función con parámetros y return para calcular el área de un rectángulo"
+escribir "  FunciÃ³n con parÃ¡metros y return para calcular el Ã¡rea de un rectÃ¡ngulo"
 definir base1 , variable , altura1 como real 
 variable <- 2 ; 
 escribir "Escibe la base "
@@ -123,7 +123,7 @@ escribir "Nombre sin parametro"
 escribir nombre2 
 escribir ""
 
-escribir "Función con return para convertir grados Celsius a Fahrenheit."
+escribir "FunciÃ³n con return para convertir grados Celsius a Fahrenheit."
 Definir celsius , fahre , pe, ku , ka   como real 
 ku <- 9 ;  
 pe <- 5 ; 
@@ -133,7 +133,7 @@ leer celsius
 variable <- (celcius * ku/pe) + ka 
 escribir "Los Grados en fahrenhait son" , variable ;
 
-Escribir " Función con parámetros para contar un carácter en una frase"
+Escribir " FunciÃ³n con parÃ¡metros para contar un carÃ¡cter en una frase"
 definir word como cadena 
 definir variable como entero  
 escribir " escriba una palabra para definir cuantos caracteres tiene " 
@@ -144,11 +144,11 @@ Fin Para
 Escribir " los caracteres de la palabra son ", variable3 ; 
 escribir ""
 
-escribir "Función sin return para imprimir números del 1 al 10."
+escribir "FunciÃ³n sin return para imprimir nÃºmeros del 1 al 10."
 tarea56()
 escribir ""
 
-escribir " Función con parámetros y return para sumar una lista de números "
+escribir " FunciÃ³n con parÃ¡metros y return para sumar una lista de nÃºmeros "
 definir num como entero  
 escribir "escribe el limite de la suma " 
 leer variable1 
@@ -243,7 +243,8 @@ funcion tarea3
 	//Escribimos "es par"
 	//si no:
 	//Escribimos "es impar"
-	//Sal:
+	
+//Sal:
 	//Se diferencia si es para o impar
 	Escribir "Par o Impar"
 	Escribir "escriba el numero deseado"
@@ -393,7 +394,7 @@ Funcion tarea7
 	//num1=(0),num2=(0),num3=(0)
 	
 	//pro:
-//Escribimos "¿Cual de estos 3 numeros es mayor?"
+//Escribimos "Â¿Cual de estos 3 numeros es mayor?"
 //	Escribimos "Digite un numero"
 //	leemos num1
 //	Escribimos "Digite un numero"
@@ -415,7 +416,7 @@ Funcion tarea7
 	Definir num1 Como Entero
 	Definir num2 como entero
 	Definir num3 como entero
-	Escribir "¿Cual de estos 3 numeros es mayor?"
+	Escribir "Â¿Cual de estos 3 numeros es mayor?"
 	Escribir "Digite un numero"
 	leer num1
 	Escribir "Digite un numero"
@@ -444,7 +445,7 @@ funcion tarea8
 	//pro:
 	//Escribimos "Edad Minima para votar"
 //	Escribimos "Para saber si tiene la edad necesaria para votar digite su edad"
-//	Escribimos "¿Cual es su edad?"
+//	Escribimos "Â¿Cual es su edad?"
 //	leemos edad
 	//si edad>=18 pues:
 	//Escribimos "Es usted apto para votar"
@@ -457,7 +458,7 @@ funcion tarea8
 	Definir edad como entero
 	Escribir "Edad Minima para votar"
 	Escribir "Para saber si tiene la edad necesaria para votar digite su edad"
-	Escribir "¿Cual es su edad?"
+	Escribir "Â¿Cual es su edad?"
 	leer edad 
 	Si edad>=18 Entonces
 		Escribir "Es usted apto para votar" 
@@ -472,9 +473,9 @@ funcion tarea9
 	
 	//pro:
 //	Escribimos "Calculadora de BMI"
-//	Escribimos "¿Cual es su peso en kg?"
+//	Escribimos "Â¿Cual es su peso en kg?"
 //	leemos peso
-//	Escribimos "¿Cual es su altura?"
+//	Escribimos "Â¿Cual es su altura?"
 //	leemos altura
 	//bmi<-peso / (altura*altura)
 	//Si bmi<=18.5 pues:
@@ -497,9 +498,9 @@ funcion tarea9
 	Definir bmi como real
 	Definir altura2 Como real
 	Escribir "Calculadora de BMI"
-	Escribir "¿Cual es su peso en kg?"
+	Escribir "Â¿Cual es su peso en kg?"
 	leer peso
-	Escribir "¿Cual es su altura?"
+	Escribir "Â¿Cual es su altura?"
 	leer altura
 	bmi<-peso / (altura*altura)
 	Si bmi<=18.5 Entonces
@@ -526,7 +527,7 @@ funcion tarea10
 	//num1=(0.0)
 	
 	//pro:
-	//Escribimos "Número positivo, negativo o cero"
+	//Escribimos "NÃºmero positivo, negativo o cero"
 	//Escribimos "Digite un numero"
 	//leemos num1
 	//Si num1<0 pues:
@@ -542,7 +543,7 @@ funcion tarea10
 	//Se da el numero positivo,negativo o cero
 	
 	Definir num1 como real 
-	Escribir "Número positivo, negativo o cero"
+	Escribir "NÃºmero positivo, negativo o cero"
 	Escribir "Digite un numero"
 	leer num1
 	Si num1<0 Entonces
@@ -565,8 +566,8 @@ Funcion tarea11
 	//num1=(0.0)
 	
 	//pro:
-//	Escribimos "Año bisiesto"
-//	Escribimos "¿Este año es bisiesto?"
+//	Escribimos "AÃ±o bisiesto"
+//	Escribimos "Â¿Este aÃ±o es bisiesto?"
 //	Leemos num1
 //	Si num1 MOD 4=0 pues:
 //	Escribimos num1, ' ', 'es bisiesto'
@@ -575,12 +576,12 @@ Funcion tarea11
 //	FinSi
 	
 	//Sal:
-	//Se da a entender si el año es bisiesto o no
+	//Se da a entender si el aÃ±o es bisiesto o no
 	
 	
 	Definir num1 Como Real
-	Escribir "Año bisiesto"
-	Escribir "¿Este año es bisiesto?"
+	Escribir "AÃ±o bisiesto"
+	Escribir "Â¿Este aÃ±o es bisiesto?"
 	Leer num1
 	Si num1 MOD 4=0 Entonces
 		Escribir num1, ' ', 'es bisiesto'
@@ -591,22 +592,22 @@ FinFuncion
 
 Funcion tarea12
 	//Ent:
-	//mes=(0),dia,(0),año=(0)
+	//mes=(0),dia,(0),aÃ±o=(0)
 	
 	//pro:
-//	escribimos "¿Cual es mi signo zodiacal?"
+//	escribimos "Â¿Cual es mi signo zodiacal?"
 //	Escribimos "Escribir su dia de nacimiento de forma numerica"
 //	leemos dia
 //	Escribimos "Escribir su mes de nacimiento de forma numerica"
 //	leer mes
-//	Escribimos "Escribir su año de nacimiento de forma numerica"
-//	leemos año
+//	Escribimos "Escribir su aÃ±o de nacimiento de forma numerica"
+//	leemos aÃ±o
 	//Si dia>=21 y mes=3 o dia<=19 y mes=4 pues:
-//	Escribimos dia,"/",mes,"/",año
+//	Escribimos dia,"/",mes,"/",aÃ±o
 //	Escribimos "su signo zodiacal es aries"
 	//sino:
 	//Si dia>=20 y mes=4 o dia<=21 y mes=5 Entonces
-//	Escribimos dia,"/",mes,"/",año
+//	Escribimos dia,"/",mes,"/",aÃ±o
 //	Escribimos "su signo zodiacal es tauro"
 	// y asi con el resto de los meses
 	
@@ -615,60 +616,60 @@ Funcion tarea12
 	
 	Definir mes Como entero
 	definir dia Como Entero
-	definir año como entero
-	escribir "¿Cual es mi signo zodiacal?"
+	definir aÃ±o como entero
+	escribir "Â¿Cual es mi signo zodiacal?"
 	Escribir "Escribir su dia de nacimiento de forma numerica"
 	leer dia
 	Escribir "Escribir su mes de nacimiento de forma numerica"
 	leer mes
-	Escribir "Escribir su año de nacimiento de forma numerica"
-	leer año
+	Escribir "Escribir su aÃ±o de nacimiento de forma numerica"
+	leer aÃ±o
 	Si dia>=21 y mes=3 o dia<=19 y mes=4 Entonces
-		Escribir dia,"/",mes,"/",año
+		Escribir dia,"/",mes,"/",aÃ±o
 		Escribir "su signo zodiacal es aries"
 	SiNo
 		Si dia>=20 y mes=4 o dia<=21 y mes=5 Entonces
-			Escribir dia,"/",mes,"/",año
+			Escribir dia,"/",mes,"/",aÃ±o
 			Escribir "su signo zodiacal es tauro"
 		SiNo
 			Si dia>=22 y mes=5 o dia<=20 y mes=6 Entonces
-				Escribir dia,"/",mes,"/",año
+				Escribir dia,"/",mes,"/",aÃ±o
 				Escribir "su signo zodiacal es geminis"
 			SiNo
 				Si dia>=21 y mes=6 o dia<=22 y mes=7 Entonces
-					Escribir dia,"/",mes,"/",año
+					Escribir dia,"/",mes,"/",aÃ±o
 					Escribir "su signo zodiacal es cancer"
 				SiNo
 					Si dia>=23 y mes=7 o dia<=22 y mes=8 Entonces
-						Escribir dia,"/",mes,"/",año
+						Escribir dia,"/",mes,"/",aÃ±o
 						Escribir "su signo zodiacal es leo"
 					SiNo
 						Si dia>=23 y mes=8 o dia<=22 y mes=9 Entonces
-							Escribir dia,"/",mes,"/",año
+							Escribir dia,"/",mes,"/",aÃ±o
 							Escribir "su signo zodiacal es virgo"
 						SiNo
 							Si dia>=23 y mes=9 o dia<=22 y mes=10 Entonces
-								Escribir dia,"/",mes,"/",año
+								Escribir dia,"/",mes,"/",aÃ±o
 								Escribir "su signo zodiacal es libra"
 							SiNo
 								Si dia>=23 y mes=10 o dia<=21 y mes=11 Entonces
-									Escribir dia,"/",mes,"/",año
+									Escribir dia,"/",mes,"/",aÃ±o
 									Escribir "su signo zodiacal es escorpio"
 								SiNo
 									Si dia>=22 y mes=11 o dia<=21 y mes=12 Entonces
-										Escribir dia,"/",mes,"/",año
+										Escribir dia,"/",mes,"/",aÃ±o
 										Escribir "su signo zodiacal es sagitario"
 									SiNo
 										Si dia>=22 y mes=12 o dia<=19 y mes=1  Entonces
-											Escribir dia,"/",mes,"/",año
+											Escribir dia,"/",mes,"/",aÃ±o
 											Escribir "su signo zodiacal es capricornio"
 										SiNo
 											Si dia>=20 y mes=1 o dia<=18 y mes=2 Entonces
-												Escribir dia,"/",mes,"/",año
+												Escribir dia,"/",mes,"/",aÃ±o
 												Escribir "su signo zodiacal es acuario"
 											SiNo
 												Si dia>=19 y mes=2 o dia<=20 y mes=3 Entonces
-													Escribir dia,"/",mes,"/",año
+													Escribir dia,"/",mes,"/",aÃ±o
 													Escribir "su signo zodiacal es piscis"
 												SiNo
 													Escribir "error"
@@ -692,14 +693,14 @@ funcion tarea13
 	//dia=(0)
 	
 	//pro:
-//	Escribimos "Día del mes con respecto a la primera o segunda quincena"
-//	Escribimos "Ingrese un número de día del mes (por ejemplo, del 1 al 31)"
+//	Escribimos "DÃ­a del mes con respecto a la primera o segunda quincena"
+//	Escribimos "Ingrese un nÃºmero de dÃ­a del mes (por ejemplo, del 1 al 31)"
 //	leemos dia
 	//si dia<=15 pues:
-	//Escribimos "ese día pertenece a la primera quincena"
+	//Escribimos "ese dÃ­a pertenece a la primera quincena"
 	//sino:
 	//Si dia>=16 y dia<=31 pues:
-	//Escribimos "ese día pertenece a la segunda quincena"
+	//Escribimos "ese dÃ­a pertenece a la segunda quincena"
 	//sino:
 	//Escribimos "ese digito no pertenece a algun dia del mes"
 	
@@ -707,14 +708,14 @@ funcion tarea13
 	//Se da entender a que dia de la quincena pertenece
 	
 	Definir dia como entero
-	Escribir "Día del mes con respecto a la primera o segunda quincena"
-	Escribir "Ingrese un número de día del mes (por ejemplo, del 1 al 31)"
+	Escribir "DÃ­a del mes con respecto a la primera o segunda quincena"
+	Escribir "Ingrese un nÃºmero de dÃ­a del mes (por ejemplo, del 1 al 31)"
 	leer dia
 	Si dia<=15 Entonces
-		Escribir "ese día pertenece a la primera quincena"
+		Escribir "ese dÃ­a pertenece a la primera quincena"
 	SiNo
 		Si dia>=16 y dia<=31 Entonces
-			Escribir "ese día pertenece a la segunda quincena"
+			Escribir "ese dÃ­a pertenece a la segunda quincena"
 		SiNo
 			Escribir "ese digito no pertenece a algun dia del mes"
 		Fin Si
@@ -726,16 +727,16 @@ Funcion tarea14
 	//num1=(0)
 	
 	//pro:
-//	Escribimos "Día de la semana"
-//	escribimos "Ingrese un número del 1 al 7"
+//	Escribimos "DÃ­a de la semana"
+//	escribimos "Ingrese un nÃºmero del 1 al 7"
 //	leemos num1
 	//usamos segun para poder realizar el problema
 	
 	//Sal:
 	//Se da el dia de la semana
 	
-	Escribir "Día de la semana"
-	escribir "Ingrese un número del 1 al 7"
+	Escribir "DÃ­a de la semana"
+	escribir "Ingrese un nÃºmero del 1 al 7"
 	leer num1
 	Segun num1 Hacer
 		1:
@@ -792,7 +793,7 @@ funcion tarea16
 	
 	//pro:
 //	Escribimos "Calculadora de precio con descuento"
-//	Escribimos "ingresar el precio de un artículo y un porcentaje de descuento"
+//	Escribimos "ingresar el precio de un artÃ­culo y un porcentaje de descuento"
 //	leemos precio
 //	leemos descuento
 	//resultado1<-descuento / 10
@@ -806,7 +807,7 @@ funcion tarea16
 	
 	Definir precio,descuento,resultado1,resultado2,resultado3,preciofinal Como Real
 	Escribir "Calculadora de precio con descuento"
-	Escribir "ingresar el precio de un artículo y un porcentaje de descuento"
+	Escribir "ingresar el precio de un artÃ­culo y un porcentaje de descuento"
 	leer precio
 	leer descuento
 	resultado1<-descuento / 10
@@ -855,7 +856,7 @@ funcion tarea18
 //	Escribimos "Calculadora de sueldo con aumento"
 //	Escribimos "ingrese su salario actual"
 //	leemos sueldo
-//	Escribimos "ingrese el porcentaje de aumento que recibirá"
+//	Escribimos "ingrese el porcentaje de aumento que recibirÃ¡"
 //	Leemos aumento
 //	aumentofinal<-aumento * 0.01 * sueldo
 //	Escribimos "Su sueldo sera de ",aumentofinal + sueldo
@@ -869,7 +870,7 @@ funcion tarea18
 	Escribir "Calculadora de sueldo con aumento"
 	Escribir "ingrese su salario actual"
 	leer sueldo
-	Escribir "ingrese el porcentaje de aumento que recibirá"
+	Escribir "ingrese el porcentaje de aumento que recibirÃ¡"
 	Leer aumento
 	aumentofinal<-aumento * 0.01 * sueldo
 	Escribir "Su sueldo sera de ",aumentofinal + sueldo	
@@ -894,7 +895,7 @@ Funcion tarea19
 	//Sal:
 	//Se da el total de la factura
 	
-	Escribir "Calculadora de compra con múltiples artículos"
+	Escribir "Calculadora de compra con mÃºltiples artÃ­culos"
 	definir precio,cantidad,total como real
 	Repetir
 		Escribir "Ingrese el precio del producto","(para finalizar la factura ingrese 0)"
@@ -957,16 +958,16 @@ FinFuncion
 
 Funcion tarea23
 	//Ent:
-	//salario=(0),años=(0),bono(0)
+	//salario=(0),aÃ±os=(0),bono(0)
 	
 	//pro:
-//	Escribimos "¿Cuantos años lleva trabajando en nuestra empresa?"
-//	leemos años
-	//Si años>=5 pues:
+//	Escribimos "Â¿Cuantos aÃ±os lleva trabajando en nuestra empresa?"
+//	leemos aÃ±os
+	//Si aÃ±os>=5 pues:
 //	Escribir "Indroduzca su salario"
 //	leemos salario
 //	bono<-salario * 0.05
-//	Escribimos "Felicidades por su antigüedad en nuestra empresa"
+//	Escribimos "Felicidades por su antigÃ¼edad en nuestra empresa"
 //	Escribimos "por lo tanto tendra un bono de ","$",bono
 	//sino:
 	//Escribimos "No ha trabajo el suficiente tiempo en nuestra empresa"
@@ -974,15 +975,15 @@ Funcion tarea23
 	//Sal:
 	//Se da el bono
 	
-	Escribir "Bono de Antigüedad"
-	Definir salario,años,bono Como Entero
-	Escribir "¿Cuantos años lleva trabajando en nuestra empresa?"
-	leer años
-	Si años>=5 Entonces
+	Escribir "Bono de AntigÃ¼edad"
+	Definir salario,aÃ±os,bono Como Entero
+	Escribir "Â¿Cuantos aÃ±os lleva trabajando en nuestra empresa?"
+	leer aÃ±os
+	Si aÃ±os>=5 Entonces
 		Escribir "Indroduzca su salario"
 		leer salario
 		bono<-salario * 0.05
-		Escribir "Felicidades por su antigüedad en nuestra empresa"
+		Escribir "Felicidades por su antigÃ¼edad en nuestra empresa"
 		Escribir "por lo tanto tendra un bono de ","$",bono
 	SiNo
 		Escribir "No ha trabajo el suficiente tiempo en nuestra empresa"
@@ -994,8 +995,8 @@ funcion tarea24
 	//distancia=(0.0),costo=(0.0)
 	
 	//pro:
-//	Escribimos "Calculadora de envío con tarifas diferentes"
-//	Escribimos "¿Cual es la distancia de envio?"
+//	Escribimos "Calculadora de envÃ­o con tarifas diferentes"
+//	Escribimos "Â¿Cual es la distancia de envio?"
 //	Leer distancia
 //	Si distancia<50 pues:
 //		costo=10
@@ -1007,8 +1008,8 @@ funcion tarea24
 	//Se da el costo por distancia
 	
 	Definir distancia,costo Como Real
-	Escribir "Calculadora de envío con tarifas diferentes"
-	Escribir "¿Cual es la distancia de envio?"
+	Escribir "Calculadora de envÃ­o con tarifas diferentes"
+	Escribir "Â¿Cual es la distancia de envio?"
 	Leer distancia
 	Si distancia<50 Entonces
 		costo=10
@@ -1022,15 +1023,15 @@ FinFuncion
 
 Funcion tarea25
 	//Ent:
-	//totalComprasAño=(0.0),total=(0.0),descuento=(0.0),compra=(0.0
+	//totalComprasAÃ±o=(0.0),total=(0.0),descuento=(0.0),compra=(0.0
 	
 	//pro:
 //	Escribimos "Calculadora de descuento por lealtad del cliente"
 //	Escribimos "Ingrese el precio final de su factura"
 //	Leemos compra
-//	EScribimos "Ingrese el total de sus compras mensuales durante un año"
-//	leemos totalComprasAño
-//	Si totalComprasAño>=500 pues
+//	EScribimos "Ingrese el total de sus compras mensuales durante un aÃ±o"
+//	leemos totalComprasAÃ±o
+//	Si totalComprasAÃ±o>=500 pues
 //		descuento=compra*0.10
 //		total= compra-descuento
 //		Escribimos "Felicidades por sus compras mensuales ha obtenido un descuento del 10%"
@@ -1041,13 +1042,13 @@ Funcion tarea25
 	//Sal:
 	//Se da el total de la factura con su descuento
 	
-	Definir totalComprasAño,total,descuento,compra Como Real
+	Definir totalComprasAÃ±o,total,descuento,compra Como Real
 	Escribir "Calculadora de descuento por lealtad del cliente"
 	Escribir "Ingrese el precio final de su factura"
 	Leer compra
-	EScribir "Ingrese el total de sus compras mensuales durante un año"
-	leer totalComprasAño
-	Si totalComprasAño>=500 Entonces
+	EScribir "Ingrese el total de sus compras mensuales durante un aÃ±o"
+	leer totalComprasAÃ±o
+	Si totalComprasAÃ±o>=500 Entonces
 		descuento=compra*0.10
 		total= compra-descuento
 		Escribir "Felicidades por sus compras mensuales ha obtenido un descuento del 10%"
@@ -1140,7 +1141,7 @@ Funcion tarea31
 	//num=(0),total=(0)
 	
 	//pro:
-//	Escribimos "Suma de números pares"
+//	Escribimos "Suma de nÃºmeros pares"
 //	Para num<-0 Hasta 48 Con Paso 0 Hacer:
 //		num<-num+2
 //		total=total+num
@@ -1150,7 +1151,7 @@ Funcion tarea31
 	//Se da el total de la suma de pares
 	
 	Definir num,total Como Entero
-	Escribir "Suma de números pares"
+	Escribir "Suma de nÃºmeros pares"
 	Para num<-0 Hasta 48 Con Paso 0 Hacer
 		num<-num+2
 		total=total+num
@@ -1285,7 +1286,7 @@ Funcion tarea35
 	//pro:
 //	num <- azar (9) + 1 
 //	intentos <- 3 
-//	Escribimos "Adivina el número"
+//	Escribimos "Adivina el nÃºmero"
 //	Mientras intentos > 0  Hacer 
 //	escribimos "Ingrese el numero entre el 1 al 10 "  numero 
 //	leemos numero_ 
@@ -1306,7 +1307,7 @@ Funcion tarea35
 	definir num , numero_ , intentos como entero 
 	num <- azar (9) + 1 
 	intentos <- 3 
-	Escribir "Adivina el número"
+	Escribir "Adivina el nÃºmero"
 	Mientras intentos > 0  Hacer 
 		escribir "Ingrese el numero entre el 1 al 10 "  numero 
 		leer numero_ 
@@ -1355,7 +1356,7 @@ Funcion tarea36
 			contador <- contador + 1 
 		FinSi
     FinPara
-    Escribir "El número de letras en la palabra es: ", contador ; 
+    Escribir "El nÃºmero de letras en la palabra es: ", contador ; 
 FinFuncion
 
 Funcion tarea37
@@ -1372,7 +1373,7 @@ Funcion tarea37
 	//Se da el total de la suma de los numeros impares
 	
 	Definir num, total Como Entero
-	Escribir "Suma de números impares"
+	Escribir "Suma de nÃºmeros impares"
 	num=1
 	Mientras num<=100 Hacer
 		num<-num+2
@@ -1413,7 +1414,7 @@ Funcion tarea39
 	//pro:
 //	num <- 0 ; 
 //	suma <- 0; 
-//	Escribimos "Suma de números"
+//	Escribimos "Suma de nÃºmeros"
 //	Mientras num >= 0 Hacer   
 //	escribimos " Escribe numero que deseas sumar" 
 //	Escribimos "( para salir del bucle solo utiliza un numero negativo )"
@@ -1427,7 +1428,7 @@ Funcion tarea39
 	definir num,suma como entero  
 	num <- 0 ; 
 	suma <- 0; 
-	Escribir "Suma de números"
+	Escribir "Suma de nÃºmeros"
 	Mientras num >= 0 Hacer   
 		escribir " Escribe numero que deseas sumar" 
 		Escribir "( para salir del bucle solo utiliza un numero negativo )"
@@ -1513,7 +1514,7 @@ Funcion tarea42
 	//pro:
 //	leemos num 
 //  para variable <- 1 hasta num hacer
-//  escribimos "Ingrese la calificación ", variable, ": "
+//  escribimos "Ingrese la calificaciÃ³n ", variable, ": "
 //  leemos calificaciones[variable] 
 //  suma <- suma + calificaciones[variable] 
 	
@@ -1527,7 +1528,7 @@ Funcion tarea42
 	escribir "Ingrese la cantidad de calificaciones: "
     leer num 
     para variable <- 1 hasta num hacer
-        escribir "Ingrese la calificación ", variable, ": "
+        escribir "Ingrese la calificaciÃ³n ", variable, ": "
         leer calificaciones[variable] 
         suma <- suma + calificaciones[variable] 
     finpara
@@ -1562,7 +1563,7 @@ Funcion tarea43
 	
 	definir num,  numeros_ , menor1  , mayor1, dim , variable   como entero 
 	Escribir "Mayor y menor valor"
-	escribir "Escriba el tamaño de la dimension " ; 
+	escribir "Escriba el tamaÃ±o de la dimension " ; 
 	leer dim
 	Dimension numeros_[dim]; 
 	Para variable <- 1  Hasta dim  Con Paso 1 Hacer  
@@ -1661,7 +1662,7 @@ Funcion tarea45
 		FinSi
 		
 	Fin Para
-	Escribir "El número de elementos pares en el arreglo es: ", contador;
+	Escribir "El nÃºmero de elementos pares en el arreglo es: ", contador;
 FinFuncion
 
 Funcion tarea46
@@ -1690,7 +1691,7 @@ Funcion tarea46
 	
 	Definir num, variable, v Como Entero 
     dimension arreglo[10]; 
-	Escribir "Inversión de un arreglo"
+	Escribir "InversiÃ³n de un arreglo"
 	Escribir "Ingrese la cantidad de elementos del arreglo:" 
     Leer num 
     Escribir "Ingrese los elementos del arreglo:"  
@@ -1728,7 +1729,7 @@ Funcion tarea47
 	//Se busca el indice
 	
 	definir contador , dimen, valor_ , variable , limite  como entero 
-	Escribir "Buscar el índice"
+	Escribir "Buscar el Ã­ndice"
 	escribir " Escriba el limite "  
 	leer limite 
 	Dimension dimen[limite];  
@@ -1767,12 +1768,12 @@ funcion v <- r(n,n2)
 FinFuncion
 
 funcion v <- par_impar_sinreturn
-	Escribir "Ingrese un número:"
+	Escribir "Ingrese un nÃºmero:"
 	Leer num 
 	Si num % 2 = 0 Entonces 
-		Escribir "El número es par." 
+		Escribir "El nÃºmero es par." 
 	Sino
-		Escribir "El número es impar." 
+		Escribir "El nÃºmero es impar." 
 	FinSi 
 FinFuncion
 
